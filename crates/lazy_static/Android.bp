@@ -31,6 +31,7 @@ rust_test {
 
 rust_library {
     name: "liblazy_static",
+    recovery_available: true,
     host_supported: true,
     crate_name: "lazy_static",
     cargo_env_compat: true,

@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libserde_cbor",
+    recovery_available: true,
     host_supported: true,
     crate_name: "serde_cbor",
     cargo_env_compat: true,

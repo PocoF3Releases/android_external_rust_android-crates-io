@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libhalf",
+    recovery_available: true,
     defaults: ["rust_baremetal_nostd_defaults"],
     host_supported: true,
     crate_name: "half",

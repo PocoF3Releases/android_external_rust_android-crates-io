@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libtokio",
+    recovery_available: true,
     host_supported: true,
     crate_name: "tokio",
     cargo_env_compat: true,

@@ -35,6 +35,7 @@ rust_test {
 
 rust_library {
     name: "liberrno",
+    recovery_available: true,
     host_supported: true,
     crate_name: "errno",
     cargo_env_compat: true,

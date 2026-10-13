@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "librusqlite",
+    recovery_available: true,
     host_supported: true,
     crate_name: "rusqlite",
     cargo_env_compat: true,

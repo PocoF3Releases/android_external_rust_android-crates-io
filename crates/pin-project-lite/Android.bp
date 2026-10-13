@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libpin_project_lite",
+    recovery_available: true,
     host_supported: true,
     crate_name: "pin_project_lite",
     cargo_env_compat: true,

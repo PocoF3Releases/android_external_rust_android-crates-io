@@ -404,6 +404,7 @@ rust_test {
 
 rust_library {
     name: "libbytes",
+    recovery_available: true,
     host_supported: true,
     crate_name: "bytes",
     cargo_env_compat: true,

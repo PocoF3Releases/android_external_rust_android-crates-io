@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libhashbrown",
+    recovery_available: true,
     host_supported: true,
     crate_name: "hashbrown",
     cargo_env_compat: true,

@@ -35,6 +35,7 @@ rust_test {
 
 rust_library {
     name: "libdowncast",
+    recovery_available: true,
     host_supported: true,
     crate_name: "downcast",
     cargo_env_compat: true,

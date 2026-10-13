@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libchrono",
+    recovery_available: true,
     host_supported: true,
     crate_name: "chrono",
     cargo_env_compat: true,

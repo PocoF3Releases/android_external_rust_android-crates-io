@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libsocket2",
+    recovery_available: true,
     host_supported: true,
     crate_name: "socket2",
     cargo_env_compat: true,

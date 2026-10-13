@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libtermtree",
+    recovery_available: true,
     host_supported: true,
     crate_name: "termtree",
     cargo_env_compat: true,

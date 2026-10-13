@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libppv_lite86",
+    recovery_available: true,
     host_supported: true,
     crate_name: "ppv_lite86",
     cargo_env_compat: true,

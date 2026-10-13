@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "liblibsqlite3_sys",
+    recovery_available: true,
     host_supported: true,
     crate_name: "libsqlite3_sys",
     cargo_env_compat: true,
@@ -65,6 +66,7 @@ rust_test {
 
 rust_bindgen {
     name: "libsqlite3_bindgen",
+    recovery_available: true,
     host_supported: true,
     crate_name: "sqlite3_bindgen",
     custom_bindgen: "sqlite3_bindgen_build",

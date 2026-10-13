@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libconst_oid",
+    recovery_available: true,
     defaults: ["rust_baremetal_nostd_defaults"],
     host_supported: true,
     crate_name: "const_oid",

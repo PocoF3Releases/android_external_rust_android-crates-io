@@ -30,6 +30,7 @@ rust_test {
 
 rust_library {
     name: "libfragile",
+    recovery_available: true,
     host_supported: true,
     crate_name: "fragile",
     cargo_env_compat: true,

@@ -36,6 +36,7 @@ rust_test {
 
 rust_library {
     name: "libgetrandom",
+    recovery_available: true,
     host_supported: true,
     crate_name: "getrandom",
     cargo_env_compat: true,

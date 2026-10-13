@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libtermcolor",
+    recovery_available: true,
     host_supported: true,
     crate_name: "termcolor",
     cargo_env_compat: true,

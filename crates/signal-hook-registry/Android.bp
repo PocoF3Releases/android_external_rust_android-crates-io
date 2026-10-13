@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libsignal_hook_registry",
+    recovery_available: true,
     host_supported: true,
     crate_name: "signal_hook_registry",
     cargo_env_compat: true,

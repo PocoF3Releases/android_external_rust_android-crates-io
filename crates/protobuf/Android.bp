@@ -22,6 +22,7 @@ genrule {
 
 rust_library {
     name: "libprotobuf",
+    recovery_available: true,
     host_supported: true,
     crate_name: "protobuf",
     cargo_env_compat: true,

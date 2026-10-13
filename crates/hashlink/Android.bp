@@ -78,6 +78,7 @@ rust_test {
 
 rust_library {
     name: "libhashlink",
+    recovery_available: true,
     host_supported: true,
     crate_name: "hashlink",
     cargo_env_compat: true,

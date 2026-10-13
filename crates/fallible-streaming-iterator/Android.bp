@@ -15,6 +15,7 @@ license {
 
 rust_library {
     name: "libfallible_streaming_iterator",
+    recovery_available: true,
     host_supported: true,
     crate_name: "fallible_streaming_iterator",
     cargo_env_compat: true,
